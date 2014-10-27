@@ -1,0 +1,19 @@
+{
+  "name": "koa-render-jade",
+  "version": "0.0.1",
+  "description": "render jade templates using koa",
+  "keywords": [],
+  "author": "Matthew Mueller <mattmuelle@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MatthewMueller/koa-render-jade.git"
+  },
+  "dependencies": {
+    "co-views": "^0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "main": "index"
+}

@@ -10,7 +10,12 @@
 ## Example
 
 ```js
+var koa = require('koa');
+var app = koa();
+var router = require('kroute')();
 var render = require('koa-render-jade')(__dirname);
+
+app.use(router);
 
 router.get('/', function *() {
   this.body = yield render('home', {

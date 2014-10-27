@@ -9,7 +9,9 @@
     "url": "git://github.com/MatthewMueller/koa-render-jade.git"
   },
   "dependencies": {
-    "co-views": "^0.2.0"
+    "co-views": "^0.2.0",
+    "jade": "^1.7.0",
+    "pkg-root": "0.0.3"
   },
   "devDependencies": {
     "mocha": "*",
